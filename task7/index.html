@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Players </title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Football Players Registration</h1>
+        <form id="playerForm">
+            <input type="text" id="name" placeholder="Player Name" required>
+            <input type="text" id="club" placeholder="Club" required>
+            <button type="submit">Add Player</button>
+        </form>
+        <div class="filter">
+            <label for="clubFilter">Filter by Club:</label>
+            <select id="clubFilter">
+                <option value="">All Clubs</option>
+            </select>
+        </div>
+        <ul id="playerList"></ul>
+    </div>
+
+
+    <script src="./script/app.js"></script>
+</body>
+</html>
